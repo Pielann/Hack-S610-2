@@ -1,0 +1,47 @@
+Initial a Repo
+$ git init Hack-S610-2
+Initialized empty Git repository in C:/Users/chiun/Hack-S610-2/.git/
+
+Go to the Repo
+$ cd Hack-S610-2
+
+#Git Remote
+chiun@DESKTOP-7IJ48HA MINGW64 ~/Hack-S610-2 (master)
+$ git remote add origin https://github.com/Pielann/Hack-S610-2.git
+
+
+
+chiun@DESKTOP-7IJ48HA MINGW64 ~/Hack-S610-2 (master)
+$ echo "Benchmark" > benchmark_llr.R
+
+chiun@DESKTOP-7IJ48HA MINGW64 ~/Hack-S610-2 (master)
+$ echo "llr_functions" > llr_functions.R
+
+chiun@DESKTOP-7IJ48HA MINGW64 ~/Hack-S610-2 (master)
+$ echo "test_llr" > test_llr.R
+
+
+
+After editting the code
+
+chiun@DESKTOP-7IJ48HA MINGW64 ~/Hack-S610-2 (master)
+$ git add benchmark_llr.R
+
+chiun@DESKTOP-7IJ48HA MINGW64 ~/Hack-S610-2 (master)
+$ git add llr_functions.R
+
+chiun@DESKTOP-7IJ48HA MINGW64 ~/Hack-S610-2 (master)
+$ git add test_llr.R
+
+
+First Commit
+chiun@DESKTOP-7IJ48HA MINGW64 ~/Hack-S610-2 (master)
+$ git commit -m "First commit"
+
+
+
+
+
+
+
+
